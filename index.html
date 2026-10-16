@@ -4,28 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Let yourself shinethrough</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <header>
-      <div class="header-image">
-        <img src="images/Group.png" id="outest" />
-      </div>
-      <div class="header-text">
-        <h1>
-          Let yourself <br />
-          shine through
-        </h1>
-        <p>
-          Lorem ipsum dolor sit omet, <br />
-          consectetur adipiscing elit. <br />
-          Faucibus in libero risus semper <br />
-          habitant arcu eget. Et integer.
-        </p>
-        <button>Get started</button>
-      </div>
-      <div class="heroes-image">
-        <img src="images/Picture.png" alt="picture" />
-      </div>
-    </header>
+    <div class="bg-[#f5d18b] text-2xl p-4 font-serif">
+      <header>
+        <div class="w-[20%] mb-8">
+          <img src="images/Group.png" id="outest" />
+        </div>
+        <div class="header-text">
+          <h1 class="font-bold text-4xl mb-4">
+            Let yourself <br />
+            shine through
+          </h1>
+          <p class="mb-4"">
+            Lorem ipsum dolor sit omet, 
+            consectetur adipiscing elit. 
+            Faucibus in libero risus semper 
+            habitant arcu eget. Et integer.
+          </p>
+          <button class="bg-black text-white px-4 py-2 rounded-3xl mb-4">Get started</button>
+        </div>
+        <div class="heroes-image">
+          <img src="images/Picture.png" alt="picture" />
+        </div>
+      </header>
+    </div>
   </body>
 </html>
